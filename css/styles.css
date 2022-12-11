@@ -20,9 +20,10 @@ p {
    padding: 0;}
 
    a {
+      display: block;
+         padding: 24px;
       text-decoration: none;
-      padding: 0;
-     margin: 0;
+      margin: 0;
   }
   
   ul {
@@ -47,7 +48,7 @@ span {
     color: var(--primery-band);
 }
 .container {
-   width: 1152px;
+   width: 1158px;
    margin: 0 auto;
    padding: 0px 15px;}
 
@@ -91,8 +92,6 @@ span {
 
 .menu-items {
    display: flex;
-
-   padding: 24px 0px;
    font-weight: 700;
    color: var(--title-color);
 }
@@ -105,6 +104,7 @@ span {
 }
 
 .menu-item {
+   
    line-height: 1.5;
    color: var(--text-color);
 }
@@ -263,6 +263,7 @@ span {
  /*---TEAM----*/
 
  .team-section {
+   padding-top: 120px;
    padding-bottom: 120px;
     background-color: var(--light-color);
  }
@@ -299,7 +300,6 @@ span {
    margin-right: 0px;
 }
 .team-name {
-   margin: 32px 0px 8px 0px;
 
    font-weight: 700;
    font-size: 20px;
@@ -308,7 +308,12 @@ span {
    color: var(--title-color);
 }
 .team-position {
-   margin-bottom: 32px;
+   
+}
+
+.team-part {
+   padding-top: 32px;
+   padding-bottom: 32px;
 }
 
 
@@ -317,6 +322,7 @@ span {
 
 
 .portfolio-section {
+   padding-top: 120px;
    padding-bottom: 120px;
 }
 .portfolio-title {
@@ -333,10 +339,11 @@ span {
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+   color:var(--title-color)
 }
 .portfolio-buttons{
    display: flex;
-   margin: 96px 0px 72px 0px;
+   margin: 0px 0px 72px 0px;
    justify-content: center;
 }
 .portfolio-list {
